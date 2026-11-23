@@ -66,6 +66,8 @@ footer{max-width:1440px;margin:auto;padding:24px 32px calc(32px + env(safe-area-
 .pay{display:flex;flex-direction:row;gap:8px}.pay label{flex:1;border:1px solid var(--line);border-radius:10px;padding:12px;font-size:14px;color:var(--ink);cursor:pointer}.pay input{display:none}.pay input:checked+span{color:var(--gold)}.pay label:has(input:checked){border-color:var(--gold)}
 .err{color:#e5484d;font-size:13px}.empty{color:var(--ink2);padding:48px 0;text-align:center}
 @media (max-width:900px){
+/* Keep the immersive hero, but release it quickly so mobile shoppers reach the collection naturally. */
+.stage-track{height:115svh}
 .nav{padding:0 16px;gap:20px;height:56px}.nav a.m{display:none}.logo{font-size:22px}
 .hero{grid-template-columns:1fr;grid-template-areas:"copy" "car" "cur";grid-template-rows:auto;min-height:100svh;padding:20px 16px 20px;gap:12px}.hcopy{gap:12px}.hero p{font-size:15px;line-height:22px}.car{min-height:280px}.cur{gap:8px}.cur h2{font-size:28px}
 .shop{padding:96px 16px 0}.grid{grid-template-columns:repeat(2,1fr);gap:40px 16px}.card .m{flex-direction:column;gap:2px}
